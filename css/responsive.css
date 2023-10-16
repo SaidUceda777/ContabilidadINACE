@@ -4,7 +4,28 @@
 @media (max-width: 1120px) {
 }
 
+@media (max-width: 300px) {
+  h1 {
+    font-size: 1.8rem !important;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 0.9rem !important ;
+  }
+}
+
 @media (max-width: 992px) {
+  .professional_section--rs {
+    padding-bottom: 30px !important;
+  }
+
+  .col-md-6--rs {
+    display: flex;
+    justify-content: center;
+  }
   h1 {
     font-size: 2.5rem;
   }
