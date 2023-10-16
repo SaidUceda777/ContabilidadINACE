@@ -1,6 +1,9 @@
 const linkElement = document.getElementById("wsp_3");
 const svgElement = linkElement.querySelector("svg");
 
+const svg1 = document.querySelector("#wsp_1");
+const svg1_link = document.querySelector(".wspsvg_1");
+
 // Agrega un controlador de eventos al elemento <a> para el mouseover
 linkElement.addEventListener("mouseover", () => {
   // Cambia el relleno del <svg> a "orange" cuando el cursor se encuentra sobre el elemento <a>
@@ -13,59 +16,15 @@ linkElement.addEventListener("mouseout", () => {
   svgElement.style.fill = "white"; // O el color original
 });
 
-var enlace = document.getElementById("wsp");
-var enlace3 = document.getElementById("wsp_3");
-var imagen3 = document.querySelector(".img_wsp_3");
-var imagen = document.querySelector(".img_wsp");
-var enlace4 = document.getElementById("wsp_4");
-var imagen4 = document.querySelector(".img_wsp_4");
-
-var nuevaImagenSrc = "images/wsp_orange.svg"; // Reemplaza con la URL de tu nueva imagen.
-
-// Maneja el evento hover.
-enlace.addEventListener("mouseover", function () {
-  // Cambia la imagen cuando el mouse está sobre el enlace.
-  imagen.src = nuevaImagenSrc;
-});
-enlace.addEventListener("mouseout", function () {
-  // Restablece la imagen cuando el mouse sale del enlace.
-  imagen.src = "images/wsp.svg";
+svg1.addEventListener("mouseover", () => {
+  // Cambia el relleno del <svg> a "orange" cuando el cursor se encuentra sobre el elemento <a>
+  svg1_link.style.fill = "#FF8A1D";
 });
 
-enlace3.addEventListener("mouseover", function () {
-  // Cambia la imagen cuando el mouse está sobre el enlace.
-  imagen3.src = nuevaImagenSrc;
-});
-
-enlace3.addEventListener("mouseout", function () {
-  // Restablece la imagen cuando el mouse sale del enlace.
-  imagen3.src = "images/wsp.svg";
-});
-
-var enlace2 = document.getElementById("wsp_2");
-var imagen2 = document.querySelector(".img_wsp_2");
-
-var nuevaImagenSrc2 = "images/wsp_blue.svg"; // Reemplaza con la URL de tu nueva imagen.
-
-// Maneja el evento hover.
-enlace2.addEventListener("mouseover", function () {
-  // Cambia la imagen cuando el mouse está sobre el enlace.
-  imagen2.src = nuevaImagenSrc2;
-});
-
-enlace2.addEventListener("mouseout", function () {
-  // Restablece la imagen cuando el mouse sale del enlace.
-  imagen2.src = "images/wsp.svg";
-});
-
-enlace4.addEventListener("mouseover", function () {
-  // Cambia la imagen cuando el mouse está sobre el enlace.
-  imagen4.src = nuevaImagenSrc2;
-});
-
-enlace4.addEventListener("mouseout", function () {
-  // Restablece la imagen cuando el mouse sale del enlace.
-  imagen4.src = "images/wsp.svg";
+// Agrega un controlador de eventos al elemento <a> para el mouseout
+svg1.addEventListener("mouseout", () => {
+  // Restaura el relleno original del <svg> cuando el cursor se sale del elemento <a>
+  svg1_link.style.fill = "white"; // O el color original
 });
 
 // Get Current Year
