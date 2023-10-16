@@ -1,3 +1,18 @@
+const linkElement = document.getElementById("wsp_3");
+const svgElement = linkElement.querySelector("svg");
+
+// Agrega un controlador de eventos al elemento <a> para el mouseover
+linkElement.addEventListener("mouseover", () => {
+  // Cambia el relleno del <svg> a "orange" cuando el cursor se encuentra sobre el elemento <a>
+  svgElement.style.fill = "#FF8A1D";
+});
+
+// Agrega un controlador de eventos al elemento <a> para el mouseout
+linkElement.addEventListener("mouseout", () => {
+  // Restaura el relleno original del <svg> cuando el cursor se sale del elemento <a>
+  svgElement.style.fill = "white"; // O el color original
+});
+
 var enlace = document.getElementById("wsp");
 var enlace3 = document.getElementById("wsp_3");
 var imagen3 = document.querySelector(".img_wsp_3");
