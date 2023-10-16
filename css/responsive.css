@@ -6,7 +6,11 @@
 
 @media (max-width: 992px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+
+  .detail-box--rs {
+    max-width: 330.45px;
   }
 
   #mapa_pequeño {
