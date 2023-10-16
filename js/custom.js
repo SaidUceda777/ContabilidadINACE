@@ -1,38 +1,38 @@
-const linkElement = document.getElementById("wsp_3");
-const svgElement = linkElement.querySelector("svg");
+// const linkElement = document.getElementById("wsp_3");
+// const svgElement = linkElement.querySelector("svg");
 
-const svg1 = document.querySelector("#wsp_1");
-const svg1_link = document.querySelector(".wspsvg_1");
+// const svg1 = document.querySelector("#wsp_1");
+// const svg1_link = document.querySelector(".wspsvg_1");
 
-// Agrega un controlador de eventos al elemento <a> para el mouseover
-linkElement.addEventListener("mouseover", () => {
-  // Cambia el relleno del <svg> a "orange" cuando el cursor se encuentra sobre el elemento <a>
-  svgElement.style.fill = "#FF8A1D";
-});
+// // Agrega un controlador de eventos al elemento <a> para el mouseover
+// linkElement.addEventListener("mouseover", () => {
+//   // Cambia el relleno del <svg> a "orange" cuando el cursor se encuentra sobre el elemento <a>
+//   svgElement.style.fill = "#FF8A1D";
+// });
 
-linkElement.addEventListener("click", () => {
-  svgElement.style.fill = "#FF8A1D";
-});
+// linkElement.addEventListener("click", () => {
+//   svgElement.style.fill = "#FF8A1D";
+// });
 
-linkElement.addEventListener("touchstart", () => {
-  svgElement.style.fill = "#FF8A1D";
-});
-// Agrega un controlador de eventos al elemento <a> para el mouseout
-linkElement.addEventListener("mouseout", () => {
-  // Restaura el relleno original del <svg> cuando el cursor se sale del elemento <a>
-  svgElement.style.fill = "white"; // O el color original
-});
+// linkElement.addEventListener("touchstart", () => {
+//   svgElement.style.fill = "#FF8A1D";
+// });
+// // Agrega un controlador de eventos al elemento <a> para el mouseout
+// linkElement.addEventListener("mouseout", () => {
+//   // Restaura el relleno original del <svg> cuando el cursor se sale del elemento <a>
+//   svgElement.style.fill = "white"; // O el color original
+// });
 
-svg1.addEventListener("mouseover", () => {
-  // Cambia el relleno del <svg> a "orange" cuando el cursor se encuentra sobre el elemento <a>
-  svg1_link.style.fill = "#FF8A1D";
-});
+// svg1.addEventListener("mouseover", () => {
+//   // Cambia el relleno del <svg> a "orange" cuando el cursor se encuentra sobre el elemento <a>
+//   svg1_link.style.fill = "#FF8A1D";
+// });
 
-// Agrega un controlador de eventos al elemento <a> para el mouseout
-svg1.addEventListener("mouseout", () => {
-  // Restaura el relleno original del <svg> cuando el cursor se sale del elemento <a>
-  svg1_link.style.fill = "white"; // O el color original
-});
+// // Agrega un controlador de eventos al elemento <a> para el mouseout
+// svg1.addEventListener("mouseout", () => {
+//   // Restaura el relleno original del <svg> cuando el cursor se sale del elemento <a>
+//   svg1_link.style.fill = "white"; // O el color original
+// });
 
 // Get Current Year
 function getCurrentYear() {

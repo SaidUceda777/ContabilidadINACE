@@ -8,6 +8,10 @@ h1 {
   font-size: 4rem;
 }
 
+a.hover_auto:hover > svg.wspsvg_1 {
+  fill: #ff8a1d !important;
+}
+
 p {
   font-size: 1.2rem !important;
 }
