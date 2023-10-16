@@ -102,16 +102,29 @@
         <div class="row">
           <div class="col-lg-5 col-md-6">
             <div class="detail-box">
-              <h2>About us</h2>
+              <h2>Nosotros</h2>
               <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomisedThere are many variations of
-                passages of Lorem Ipsum available, but the majority have
-                suffered alteration in some form, by injected humour, or
-                randomised
+                Más de <b>25 años</b> Brindando soluciones para
+                <b>Constituir una Empresa</b>, Servicios Contables y Asesoria
+                Tributaria en un solo lugar.Brindamos asesoría para la Creación
+                de Empresa, de diferentes giros de negocio, ofreciendo un
+                <b>Paquete Integral</b> para Constituir una Empresa, de tal
+                manera que cumplas todos los requisitos para crear una empresa
+                ante <b>SUNAT y SUNARP</b>.
               </p>
-              <a href=""> Read More </a>
+              <a
+                id="wsp_2"
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=51946060929&text=Hola!"
+              >
+                Contactame
+                <img
+                  src="images/wsp.svg"
+                  class="img_wsp_2"
+                  alt=""
+                  style="padding-bottom: 5px"
+                />
+              </a>
             </div>
           </div>
           <div class="col-lg-7 col-md-6">
@@ -209,5 +222,21 @@
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
     <!-- End Google Map -->
+
+    <script>
+      var nuevaImagenSrc2 = "images/wsp_blue.svg"; // Reemplaza con la URL de tu nueva imagen.
+      var enlace2 = document.getElementById("wsp_2");
+      var imagen2 = document.querySelector(".img_wsp_2");
+      // Maneja el evento hover.
+      enlace2.addEventListener("mouseover", function () {
+        // Cambia la imagen cuando el mouse está sobre el enlace.
+        imagen2.src = nuevaImagenSrc2;
+      });
+
+      enlace2.addEventListener("mouseout", function () {
+        // Restablece la imagen cuando el mouse sale del enlace.
+        imagen2.src = "images/wsp.svg";
+      });
+    </script>
   </body>
 </html>

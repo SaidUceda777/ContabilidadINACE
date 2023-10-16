@@ -52,6 +52,7 @@ enlace4.addEventListener("mouseout", function () {
   // Restablece la imagen cuando el mouse sale del enlace.
   imagen4.src = "images/wsp.svg";
 });
+
 // Get Current Year
 function getCurrentYear() {
   var d = new Date();

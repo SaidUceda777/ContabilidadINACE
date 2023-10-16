@@ -97,35 +97,52 @@
 
     <!-- contact section -->
 
-    <section class="contact_section layout_padding">
+    <section class="contact_section layout_padding" style="padding-top: 110px">
       <div class="container">
         <div class="heading_container">
-          <h2>Contact Us</h2>
+          <h2 style="margin: 10px auto; padding-bottom: 20px">VISITANOS EN:</h2>
         </div>
         <div class="row">
-          <div class="col-md-6">
-            <form action="">
-              <div>
-                <input type="text" placeholder="Name" />
-              </div>
-              <div>
-                <input type="text" placeholder="Phone Number" />
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
-              </div>
-              <div class="d-flex">
-                <button>SEND</button>
-              </div>
-            </form>
+          <div
+            class="col-md-6"
+            style="
+              align-items: center;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-evenly;
+              width: 100%;
+            "
+          >
+            <h2>Distrito:</h2>
+            <p>Jesus María</p>
+            <h2>Dirección:</h2>
+            <p>Av. Ricardo Palma 341 Oficina 502 Edificio Platino</p>
           </div>
           <div class="col-md-6">
             <div class="map_container">
               <div class="map">
-                <div id="googleMap" style="width: 100%; height: 100%"></div>
+                <div style="width: 100%; height: 100%; overflow: hidden">
+                  <iframe
+                    id="mapa_grande"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2200.235503684229!2d-77.03442291717253!3d-12.074541793535458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8f2acfdcb3b%3A0xd6c190f49743babe!2zQW3DqXJpY2EgVGVsZXZpc2nDs24!5e0!3m2!1ses-419!2spe!4v1697380414996!5m2!1ses-419!2spe"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                  <iframe
+                    id="mapa_pequeño"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2200.235503684229!2d-77.03442291717253!3d-12.074541793535458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8f2acfdcb3b%3A0xd6c190f49743babe!2zQW3DqXJpY2EgVGVsZXZpc2nDs24!5e0!3m2!1ses-419!2spe!4v1697380414996!5m2!1ses-419!2spe"
+                    width="400"
+                    height="300"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
               </div>
             </div>
           </div>
@@ -136,7 +153,7 @@
     <!-- end contact section -->
 
     <!-- info section -->
-    <section class="info_section">
+    <section class="info_section" style="display: none">
       <div class="container">
         <h4>Get In Touch</h4>
         <div class="row">
@@ -200,7 +217,7 @@
     <!-- end info_section -->
 
     <!-- footer section -->
-    <footer class="footer_section">
+    <footer class="footer_section fixed-bottom">
       <div class="container">
         <p>
           &copy; <span id="displayDateYear"></span> Creado por
