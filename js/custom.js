@@ -10,6 +10,9 @@ linkElement.addEventListener("mouseover", () => {
   svgElement.style.fill = "#FF8A1D";
 });
 
+linkElement.addEventListener("click", () => {
+  svgElement.style.fill = "#FF8A1D";
+});
 // Agrega un controlador de eventos al elemento <a> para el mouseout
 linkElement.addEventListener("mouseout", () => {
   // Restaura el relleno original del <svg> cuando el cursor se sale del elemento <a>
