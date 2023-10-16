@@ -5,6 +5,10 @@
 }
 
 @media (max-width: 992px) {
+  h1 {
+    font-size: 3rem;
+  }
+
   #mapa_pequeño {
     display: block;
     padding-bottom: 0;
