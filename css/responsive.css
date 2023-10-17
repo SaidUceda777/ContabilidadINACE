@@ -90,6 +90,10 @@
 }
 
 @media (max-width: 767px) {
+  .hover_auto--blue {
+    width: 100%;
+  }
+
   .layout_padding {
     padding-top: 90px;
     padding-bottom: 90px;

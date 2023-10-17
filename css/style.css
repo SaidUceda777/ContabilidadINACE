@@ -12,6 +12,10 @@ a.hover_auto:hover > svg.wspsvg_1 {
   fill: #ff8a1d !important;
 }
 
+a.hover_auto--blue:hover > svg.wspsvg_1--blue {
+  fill: #0355cc !important;
+}
+
 p {
   font-size: 1.2rem !important;
 }
